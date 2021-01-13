@@ -37,7 +37,7 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     
 ---
 ## Project Steps
-* [ ] **Sprint 01** (05/01)
+* [x] **Sprint 01** (05/01)
     - [x] Business Demand Understanding
     - [x] Initial Hypothesis Creation
     - [x] Solution Planning
