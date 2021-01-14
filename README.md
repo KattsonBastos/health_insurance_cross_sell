@@ -20,13 +20,13 @@ In the actual company's agreement policy, the pays anually for the insurance. Th
 
 Our Data Science team was hired to build a model that predicts **whether or not the customer would be interested in auto insurance**, so the Sales Team hopes to be able to **prioritize** the people with the greatest interest in the new product and thus **optimize the campaign** by making only contacts with customers most likely to make the purchase.
 
-**Questions we have to answer:**
+**Questions we have to answer:**<br>
 - Main insights on the most relevant attributes of customers interested in purchasing auto insurance.
 - What percentage of customers interested in purchasing vehicle insurance will the sales team be able to reach by making 20,000 calls?
 - And if the sales team's capacity increases to 40,000 calls, what percentage of customers interested in purchasing vehicle insurance will the sales team be able to contact?
 - How many calls does the sales team need to make to contact 80% of customers interested in purchasing vehicle insurance?
 
-**Understanding the demand**
+**Understanding the demand**<br>
 - **The root cause of the demand:** to offer the vehicle insurance so that the sales team makes more calls to customers who are interested in purchase hte product.
 - **Stakeholders:** the company's Sales team
 - **Product Delivering Method:** 
@@ -87,15 +87,12 @@ The **insurer's real product** is the customer claims. Thus, the company must pr
 
 The main reason why insurance works is because the likelihood of something unfortunate happen to the insured is low ([reference](https://www.hioscar.com/blog/how-health-insurance-works-risk-sharing)). However, it's not the same between all insurance types. 
 
-**health insurance**
+**health insurance**<br>
 It is an insurance that covers the whole or a part of the risk of a person incurring _medical expenses_, spreading the risk over numerous persons.
 Differently than others, health insurance is used more often.
 
-**vehicle insurance**
+**vehicle insurance**<br>
 It provides financial protection against _physical damage_ or _bodily injury_ resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. It covers many types of vehicles, like _cars_, _trucks_, and _motorcycles_. It can also cover against non-traffic events, like _theft_, _natural disasters_, and _weather_.
-
-**The insurer's real product and revenue**
-It's the _customer claims_. The company must process the claim when the customer files it. Then, the company check its accuracy and submit the payment.
 
 ---
 ## Initial Hypothesis
