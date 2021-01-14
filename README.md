@@ -9,7 +9,7 @@
                                                 
 _until the project get finished, this README will contain the problem and the steps to be done._
 
-## A brief on the business demand
+## A Brief on the Business Demand
 :warning: Fictional Context :warning:
 Insurance All is a company that provides health insurance to its customers. They're analyzing the possibility of offering policyholders a **new product**: **vehicle insurance**.
 In the actual company's agreement policy, the pays anually for the insurance. Thus, the company whants to replicate this policy to the vehicle insurance.
@@ -27,13 +27,13 @@ Our Data Science team was hired to build a model that predicts **whether or not 
 - How many calls does the sales team need to make to contact 80% of customers interested in purchasing vehicle insurance?
 
 **Understanding the demand**
-- **The root cause of the demand:** offer a new product to customers
+- **The root cause of the demand:** to offer the vehicle insurance so that the sales team makes more calls to customers who are interested in purchase hte product.
 - **Stakeholders:** the company's Sales team
 - **Product Delivering Method:** 
     - **Granularity:** unique customers data
     - **Business Model:** Cross Sell - classification prolem
     - **Main Methods:** Classification Machine Learning Models
-    - **Solution presentation:** Dashboard with the classifications and insoghts; and the model so new classifications could be mande.
+    - **Solution presentation:** Dashboard with the classifications and insights; and provide the model so the Sales team could make requisitions and get the classification of new clients.
     
 ---
 ## Project Steps
@@ -43,8 +43,9 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     - [x] Solution Planning
     - [x] Data Collection
 * [ ] **Sprint 02** (12/01)
-    - [ ] Descriptive Analysis
-    - [ ] Business Research
+    - [x] Descriptive Analysis
+    - [x] Business Research
+    - [ ] Hypothesis Creation and Feature Engineering
 * [ ] **Sprint 03** (19/01)
     - [ ] Exploratory Data Analysis
     - [ ] Insights Report
@@ -67,11 +68,40 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     - [ ] What we learn
 
 ---
+## A Brief on the Company's Business Model
+The insurance sector is all about taking and managing risks. Thus, offering a new product (vehicle insurance) means taking more risk.
+_offer a new product (vehicle insurance) means taking more risk)_
+
+### What is an Insurance and How It Works
+Insurance is a contract, represented by a policy, in which an individual or entity receives financial protection or reimbursement against losses from an insurance company [reference](https://www.investopedia.com/terms/i/insurance.asp).
+The basic concept of insurance is that one party, _the insurer_, will guarantee payment for an uncertain future event, and the insured or the policyholder, pays a _premium_ to the insurer in exchange for that protection on that uncertain future occurrence.
+
+The _premium_ is basically the price of the insurance, tipically expressed as a monthly or annually cost. It is based on the customer's risk profile.
+
+According to [this article](https://en.wikipedia.org/wiki/Vehicle_insurance#Coverage_levels), the premium can vary depending on many factors that are believed to affect the expected cost of future claims. Some of those factors are: _gender, age, driving history, marital status, profession, vehicle classification, neighbourhood, behavior-base and even the credit rating_.
+
+### The Insurance Sector
+Insurance companies base their business models around **assuming** and **diversifying risk.**
+They generate revenue in two ways: **Charging premiums** in exchange for insurance coverage, then **reinvesting** those premiums into other _interest-generating_ assets.
+The **insurer's real product** is the customer claims. Thus, the company must process when the customers files them and then check their accuracy and submit the payments.
+
+The main reason why insurance works is because the likelihood of something unfortunate happen to the insured is low ([reference](https://www.hioscar.com/blog/how-health-insurance-works-risk-sharing)). However, it's not the same between all insurance types. 
+
+**health insurance**
+It is an insurance that covers the whole or a part of the risk of a person incurring _medical expenses_, spreading the risk over numerous persons.
+Differently than others, health insurance is used more often.
+
+**vehicle insurance**
+It provides financial protection against _physical damage_ or _bodily injury_ resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. It covers many types of vehicles, like _cars_, _trucks_, and _motorcycles_. It can also cover against non-traffic events, like _theft_, _natural disasters_, and _weather_.
+
+**The insurer's real product and revenue**
+It's the _customer claims_. The company must process the claim when the customer files it. Then, the company check its accuracy and submit the payment.
+
+---
 ## Initial Hypothesis
+🔸_Creation in progress_🔸
 
-_The following hypothesis list will be updated in the second sprint of this project, when the company's business model will be properly understood._
-
-| Hypothesis | Description |
+| **Hypothesis** | **Description** |
 | --- | --- |
 | H1 | Customers who have had purchased an insurance (like life insurance) are more likely to purchase the vehicle's one |
 | H2 | The longer the customer has had an insurance, the more likely he/she is to purchase the insurance |
