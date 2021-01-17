@@ -9,16 +9,18 @@
                                                 
 _until the project get finished, this README will contain the problem and the steps to be done._
 
-## A Brief on the Business Demand
+## A Brief on the Business Demand: cross-selling products
 :warning: Fictional Context :warning:
 Insurance All is a company that provides health insurance to its customers. They're analyzing the possibility of offering policyholders a **new product**: **vehicle insurance**.
 In the actual company's agreement policy, the pays anually for the insurance. Thus, the company whants to replicate this policy to the vehicle insurance.
 
-- **How will they offer the product to customers**: phone calls (capacity for 20,000 phone calls during the campaign);
-- **how they got the customer's interest on joining a new product**: a survey of about 380,000 customers;
+**In summary:**<br>
+- **Whom**: customers interested in the new product;
+- **how they got the customer's interest on purchasing a new product**: a survey of about 380,000 customers;
 - **How many new customers will participate in the offering campaign**: 127,000.
+- **How will they offer the product to customers**: phone calls (capacity for 20,000 phone calls during the campaign);
 
-Our Data Science team was hired to build a model that predicts **whether or not the customer would be interested in auto insurance**, so the Sales Team hopes to be able to **prioritize** the people with the greatest interest in the new product and thus **optimize the campaign** by making only contacts with customers most likely to make the purchase.
+Our Data Science team was hired to build a model that predicts **whether or not the customer would be interested in auto insurance**, so the Sales Team hopes to be able to **prioritize** the people with the greatest interest in the new product and thus **optimize the campaign** by making only contacts with customers most likely to purchase the new insurance.
 
 **Questions we have to answer:**<br>
 - Main insights on the most relevant attributes of customers interested in purchasing auto insurance.
@@ -44,7 +46,7 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     - [x] Data Collection
 * [ ] **Sprint 02** (12/01)
     - [x] Descriptive Analysis
-    - [x] Business Research
+    - [x] Business Research and Cross-Sell Understanding
     - [ ] Hypothesis Creation and Feature Engineering
 * [ ] **Sprint 03** (19/01)
     - [ ] Exploratory Data Analysis
@@ -95,22 +97,43 @@ Differently than others, health insurance is used more often.
 It provides financial protection against _physical damage_ or _bodily injury_ resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. It covers many types of vehicles, like _cars_, _trucks_, and _motorcycles_. It can also cover against non-traffic events, like _theft_, _natural disasters_, and _weather_.
 
 ---
-## Initial Hypothesis
-🔸_Creation in progress_🔸
+## A Brief on Cross-Seling Technique
+Cross-Sell is to sell related or complementary products to existing customers, maintaining a healthy relationship with them. There are some reasons why cross-sell products is important. [This post](https://www.pentationanalytics.com/blog/how-we-can-leverage-cross-selling-in-health-insurance-sector/) list some of them:
+
+- _Revenue generation_
+- _Customer loyalty_
+- _Improved Customer satisfaction_
+- _Increase customer retention_
+- _Increased Customer base_
+
+That post also points that selling to existing customers costs less than selling to new ones. Besides that, **it's important to note that cross-selling still is selling, which means the company needs tp help the customer solve his/her proglems**. Thinking on insurance matters, to offer two insurance types is good to the customer because he/she could prefer a single place to get them, simplifying the task of searching for different products.
+
+### The Role of Machine Learning in this task
+Machine Learning is usefull in many ways to the insurance sector. Among that, it helps to find patterns in the data and then to determine the **probability** of cross-selling a product to the existing customer and also to predict the **right time** to pitch the products to existing customers based on inter-purchase time of similar customers
+
+---
+## Business Hypothesis Creation
+Some hypothesis about the business problem was created. They will guide the Exploratory Data Analysis, offering insights and also the relevance of each feature to the model. That relevance will be compared with the results of some feature selector algorithms and then we can better decide what feature to consider in modeling.
+
+<p align='center'>
+<img src="/imgs/mind_map.jpg" alt="drawing" width="90%"/>
+</p>
 
 | **Hypothesis** | **Description** |
 | --- | --- |
-| H1 | Customers who have had purchased an insurance (like life insurance) are more likely to purchase the vehicle's one |
-| H2 | The longer the customer has had an insurance, the more likely he/she is to purchase the insurance |
-| H3 | Older customers are more likely to purchase the vehicle insurance | 
-| H4 | The younger the customer's vehicle, the more likely he/she is to purchase the insurance | 
-| H5 | Customers with a bad vehicle accident history are more likely to purchase the insurance | 
-| H6 | The higher the client's income, the more likely he/she is to purchase the insurance | 
-| H7 | Customers from urban areas are more likely to purchase the insurance  | 
+| H1 | Older customers should be more likely to purchase the vehicle insurance. |
+| H2 | Customers who have driving license should be more likely to purchase the vehicle insurance. |
+| H3 | Customers who have their vehicles damagedin the past should be more likely to purchase the vehicle insurance. | 
+| H4 | Women are more likely to purchase a vehicle insurance than men. | 
+| H5 | The customer's interest for vehicle insurance should differ between region codes. | 
+| H6 | The longer as a customer, the more likely to purchase the vehicle insurance he/she should be. | 
+| H7 | The more the customer spent on our products, the more he/she should be to purchase the vehicle insurance.  | 
+| H8 | The younger the customer's vehicle, the more likely he/she should be to purchase the vehicle insurance.  | 
+| H9 | Customers who don't have a vehicle insurance should be more likely to purchase one.  | 
 
 ---
 ## The Dataset
-_this is from Kaggle problem description, but it'll be changed after the data collection_
+
 
 ### Data information:
 
@@ -141,7 +164,7 @@ _this is from Kaggle problem description, but it'll be changed after the data co
 | **Anual Premium:** | Continuous | amount the customer paid the company for annual health insurance. |
 | **Vintage:** | Discrete | number of days the customer joined the company through the purchase of health insurance. |
 | **Previously Insured:** | Binary | 0, the customer does not have auto insurance; and 1, the customer has had auto insurance. |
-| **Response:** | Binary | 0, the customer is not intereste; and 1, the customer is interested. |
+| **Response:** | Binary | 0, the customer is not interested; and 1, the customer is interested. |
 
 <p align='center'>
 <img src="/imgs/schema_diagram.png" alt="drawing" width="90%"/>
