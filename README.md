@@ -20,6 +20,7 @@ In the actual company's agreement policy, the pays anually for the insurance. Th
 - **How many new customers will participate in the offering campaign**: 127,000.
 - **How will they offer the product to customers**: phone calls (capacity for 20,000 phone calls during the campaign);
 
+**THE TASK**
 Our Data Science team was hired to build a model that predicts **whether or not the customer would be interested in auto insurance**, so the Sales Team hopes to be able to **prioritize** the people with the greatest interest in the new product and thus **optimize the campaign** by making only contacts with customers most likely to purchase the new insurance.
 
 **Questions we have to answer:**<br>
