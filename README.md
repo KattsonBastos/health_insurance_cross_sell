@@ -118,7 +118,7 @@ Machine Learning is usefull in many ways to the insurance sector. Among that, it
 Some hypothesis about the business problem was created. They will guide the Exploratory Data Analysis, offering insights and also the relevance of each feature to the model. That relevance will be compared with the results of some feature selector algorithms and then we can better decide what feature to consider in modeling.
 
 <p align='center'>
-<img src="/imgs/mind_map.jpg" alt="drawing" width="90%"/>
+<img src="/imgs/mind_map.png" alt="drawing" width="90%"/>
 </p>
 
 | **Hypothesis** | **Description** |
