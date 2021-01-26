@@ -9,7 +9,7 @@
                                                 
 _Until the project get finished, this README will contain the problem and the steps to be done._
 
-If something goes wrong when opening the notebook, please try this link: https://nbviewer.jupyter.org/github/KattsonBastos/health_insurance_cross_sell/blob/main/notebooks/pa004_kattson_bastos.ipynb
+If something goes wrong when opening the notebook, please try this link: https://nbviewer.jupyter.org/github/KattsonBastos/health_insurance_cross_sell/blob/main/notebooks/health_insurance_cross_sell.ipynb
 
 ## A Brief on the Business Demand: cross-selling products
 :warning: Fictional Context :warning:
