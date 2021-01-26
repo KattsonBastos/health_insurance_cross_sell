@@ -47,13 +47,13 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     - [x] Initial Hypothesis Creation
     - [x] Solution Planning
     - [x] Data Collection
-* [ ] **Sprint 02** (12/01)
+* [x] **Sprint 02** (12/01)
     - [x] Descriptive Analysis
     - [x] Business Research and Cross-Sell Understanding
     - [x] Hypothesis Creation 
-    - [ ] Feature Engineering
+    - [x] Feature Engineering
 * [ ] **Sprint 03** (19/01)
-    - [ ] Exploratory Data Analysis
+    - [x] Exploratory Data Analysis
     - [ ] Insights Report
 * [ ] **Sprint 04** (26/01)
     - [ ] Data Preparation
