@@ -52,12 +52,11 @@ Our Data Science team was hired to build a model that predicts **whether or not 
     - [x] Business Research and Cross-Sell Understanding
     - [x] Hypothesis Creation 
     - [x] Feature Engineering
-* [ ] **Sprint 03** (19/01)
+* [x] **Sprint 03** (19/01)
     - [x] Exploratory Data Analysis
-    - [ ] Insights Report
-* [ ] **Sprint 04** (26/01)
-    - [ ] Data Preparation
-    - [ ] Feature Selection
+* [x] **Sprint 04** (26/01)
+    - [x] Data Preparation
+    - [x] Feature Selection
 * [ ] **Sprint 05** (02/02)
     - [ ] Machine Learning Model
 * [ ] **Sprint 06** ( 09/02)
@@ -125,15 +124,17 @@ Some hypothesis about the business problem was created. They will guide the Expl
 
 | **Hypothesis** | **Description** |
 | --- | --- |
-| H1 | Older customers should be more likely to purchase the vehicle insurance. |
-| H2 | Customers who have driving license should be more likely to purchase the vehicle insurance. |
-| H3 | Customers who have their vehicles damagedin the past should be more likely to purchase the vehicle insurance. | 
-| H4 | Women are more likely to purchase a vehicle insurance than men. | 
-| H5 | The customer's interest for vehicle insurance should differ between region codes. | 
-| H6 | The longer as a customer, the more likely to purchase the vehicle insurance he/she should be. | 
-| H7 | The more the customer spent on our products, the more he/she should be to purchase the vehicle insurance.  | 
-| H8 | The younger the customer's vehicle, the more likely he/she should be to purchase the vehicle insurance.  | 
-| H9 | Customers who don't have a vehicle insurance should be more likely to purchase one.  | 
+| H1 | Among the customers interested in purchasing the insurance, there are more around the middle age. |
+| H2 | The proportion of customers interested in purchasing the insurance is higher among those who have driving license. |
+| H3 | At least 40% of customers who have had their vehicles damaged are interested in purchasing the insurance. |
+| H4 | Among women, the proportion of customers interested in purchasing the insurance is at least 10% higher than the proportion among men. |
+| H5 | Among customers over the age of 60, those who have a vehicle older than 2 years are more interested in purchase the insurance. |
+| H6 | The proportion of customers interested in purchase the insurance is at least 10% higher among those who are customers for more than 6 months. |
+| H7 | Customers who spent above the average in premiums are more interested in purchasing the insurance. |
+| H8 | Customers who spent above the average in less time as a customer are more interested in purchasing the vehicle insurance.  |
+| H9 | There are more customers interested in purchasing the insurance among those who have a vehicle newer than 1 year. |
+| H10 | There are more customers interested in purchasing the insurance among those who have never had a vehicle insurance. |
+| H11 | Customers from regions that have a higher mean in premium spending are more interested in purchasing the insurance |
 
 ---
 ## The Dataset
