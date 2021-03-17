@@ -7,7 +7,7 @@
 <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
 </p>
                                                 
-_Until the project get finished, this README will contain the problem and the steps to be done._
+_Until the project get finished, this README will contain the problem and the steps to be done (So, this won't be the final ReadMe)._
 
 If something goes wrong when opening the notebook, please try this link: https://nbviewer.jupyter.org/github/KattsonBastos/health_insurance_cross_sell/blob/main/notebooks/health_insurance_cross_sell.ipynb
 
